@@ -54,7 +54,7 @@
                         $login_err = "Invalid username or password";
                     }
                 } else{
-                    echo "Try again later";
+                    echo "Please try again later";
                 }
     
                 mysqli_stmt_close($stmt);
