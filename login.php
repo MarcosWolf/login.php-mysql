@@ -90,7 +90,7 @@
                 ?>
                 
                 <div>
-                    <input type="text" name="username" required="required">
+                    <input type="text" name="username" required="required" autocomplete="off">
                     <span>Username</span>
                 </div>
                 <div>
