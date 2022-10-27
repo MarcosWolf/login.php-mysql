@@ -6,6 +6,8 @@
 Theme: Dark <br/>
 Last Update: 27/10/2022 <br/>
 
+<hr>
+
 <b>SQL query:</b>
 ```
 CREATE TABLE users (
