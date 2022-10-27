@@ -29,7 +29,7 @@ body {
     gap: 15px;
 }
 
-.login input[type="text"], input[type="password"] {
+.login input[type="text"], .login input[type="password"] {
     color: #CBD0F7;
     /* background-color: #252A34; */
     background-color: #181920;
