@@ -83,22 +83,22 @@
                 <img src="img/logo.png">
             </div>
             <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
-            <?php 
-                if(!empty($login_err)){
-                    echo '<div class="alert alert-danger">' . $login_err . '</div>';
-                }        
-            ?>
-                <div>
-                    <input type="text" name="username" required="required">
-                    <span>Username</span>
-                </div>
-                <div>
-                    <input type="password" name="password" required="required">
-                    <span>Password</span>
-                </div>
-                <div>
-                    <input type="submit" value="Login">
-                </div>
+              <?php 
+                   if(!empty($login_err)){
+                      echo '<div class="alert alert-danger">' . $login_err . '</div>';
+                    }        
+              ?>
+            <div>
+                <input type="text" name="username" required="required">
+                <span>Username</span>
+            </div>
+            <div>
+                <input type="password" name="password" required="required">
+                <span>Password</span>
+            </div>
+            <div>
+                <input type="submit" value="Login">
+            </div>
             </form>
             <p>Don't have an account? <a href="#">Sign up</a></p>
         </div>
